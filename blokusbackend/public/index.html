@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+    <title>Blokus</title>
+  </head>
+  <body>
+    <div id="root">
+	
+		<div id="canvas">
+			<canvas id="gamecanvas" width="800px" height="800px"></canvas>
+		</div>
+	
+		<div id="piecepage">
+			Players
+			<div id="buttons">
+				<button class="buttons" id="redb">Red</button>
+				<button class="buttons" id="greenb">Green</button>
+				<button class="buttons" id="blueb">Blue</button>
+				<button class="buttons" id="yellowb">Yellow</button>
+			</div>
+
+			<div id="pieces">
+			
+			</div>
+			
+			<div id="bottombuttons">
+				<button id="undo" class="bottomb">Undo</button>
+				<button id="reset" class="bottomb">Reset</button>
+			</div>
+			<button id="selectside" class="bottomb">Select side</button>
+			<button id="info" class="bottomb">Help</button>
+		</div>
+	</div>
+
+  </body>
+  
+<script src="/socket.io/socket.io.js"></script>
+<script src="index.js"></script>
+  
+</html>

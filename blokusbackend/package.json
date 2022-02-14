@@ -1,0 +1,21 @@
+{
+  "name": "blokusbackend",
+  "version": "1.0.0",
+  "description": "A blokus game",
+  "main": "index.js",
+  "engines": {
+    "node": "12.18.3",
+    "npm": "7.20.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.3"
+  }
+}
